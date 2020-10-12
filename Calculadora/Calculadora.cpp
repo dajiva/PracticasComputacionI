@@ -54,7 +54,7 @@ int main() {
         while (repeat) {
             cout << "¿Desea hacer otra operación? Escriba sí o no" << endl;
             cin >> continuar;
-            if (continuar == "sí") {
+            if (continuar == "sí" or continuar == "si") {
                 cont = true;
                 repeat = false;
             } else if (continuar == "no") {
@@ -63,7 +63,6 @@ int main() {
             }
             else {
                 cout << "Escriba solo sí o no";
-                repeat = true;
             }
         }
     }
