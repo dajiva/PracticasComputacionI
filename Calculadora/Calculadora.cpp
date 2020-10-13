@@ -33,7 +33,7 @@ int main() {
             result = n1 + n2;
         } else if (op == "-") {
             result = n1 - n2;
-        } else if (op == "*" or op == "x") {
+        } else if (op == "*" || op == "x") {
             result = n1 * n2;
         } else if (op == "/") {
             if (n2 == 0) {
@@ -54,7 +54,7 @@ int main() {
         while (repeat) {
             cout << "¿Desea hacer otra operación? Escriba sí o no" << endl;
             cin >> continuar;
-            if (continuar == "sí" or continuar == "si") {
+            if (continuar == "sí" || continuar == "si") {
                 cont = true;
                 repeat = false;
             } else if (continuar == "no") {
