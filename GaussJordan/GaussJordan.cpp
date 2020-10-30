@@ -83,6 +83,8 @@ No regresa ningún valor.
 template <typename matriz>
 void ImprimirSolucion(matriz & miMatriz)
 {
+    cout << endl;
+    cout << "Solución: " << endl;
     bool sol=true;
     int variables = miMatriz.size();
     for (int i = 0; i < variables; i++) {
