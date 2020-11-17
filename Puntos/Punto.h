@@ -4,7 +4,7 @@
 
 #ifndef PUNTO_PUNTO_H
 #define PUNTO_PUNTO_H
-
+#define M_PI 3.141592
 
 class Punto2D {
 private:
