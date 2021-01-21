@@ -109,6 +109,7 @@ void GaussJordan(matriz & miMatriz)
 {
     int variables = miMatriz.size();
     float p;
+    // Gauss
     for (int x=0; x < variables; x++) {
         if (miMatriz[x][x] == 0){
             IntercambiarRenglones(miMatriz,x);
@@ -121,6 +122,7 @@ void GaussJordan(matriz & miMatriz)
             }
         }
     }
+    //Jordan
     for (int x=variables-1; x > 0 ; x--) {
        for (int i=0; i < x; i++) {
             p = miMatriz[i][x]/miMatriz[x][x];
